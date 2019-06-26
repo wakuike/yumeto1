@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1989692522C3CF6000EC4342 /* yumeto1 in Resources */ = {isa = PBXBuildFile; fileRef = 1989692422C3CF6000EC4342 /* yumeto1 */; };
+		1989692622C3CF6000EC4342 /* yumeto1 in Resources */ = {isa = PBXBuildFile; fileRef = 1989692422C3CF6000EC4342 /* yumeto1 */; };
+		1989692722C3CF6000EC4342 /* yumeto1 in Resources */ = {isa = PBXBuildFile; fileRef = 1989692422C3CF6000EC4342 /* yumeto1 */; };
 		19995ACA22991EC300AEB179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19995AC922991EC300AEB179 /* AppDelegate.swift */; };
 		19995ACC22991EC300AEB179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19995ACB22991EC300AEB179 /* ViewController.swift */; };
 		19995ACF22991EC300AEB179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19995ACD22991EC300AEB179 /* Main.storyboard */; };
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1989692422C3CF6000EC4342 /* yumeto1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = yumeto1; sourceTree = "<group>"; };
 		19995AC622991EC300AEB179 /* yumeto1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yumeto1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19995AC922991EC300AEB179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19995ACB22991EC300AEB179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		19995AE522991EC400AEB179 /* yumeto1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yumeto1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19995AE922991EC400AEB179 /* yumeto1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yumeto1UITests.swift; sourceTree = "<group>"; };
 		19995AEB22991EC400AEB179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19995AF822A9549F00AEB179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,7 @@
 		19995AC822991EC300AEB179 /* yumeto1 */ = {
 			isa = PBXGroup;
 			children = (
+				1989692422C3CF6000EC4342 /* yumeto1 */,
 				19995AC922991EC300AEB179 /* AppDelegate.swift */,
 				19995ACB22991EC300AEB179 /* ViewController.swift */,
 				19995ACD22991EC300AEB179 /* Main.storyboard */,
@@ -232,6 +238,7 @@
 				19995AD422991EC300AEB179 /* LaunchScreen.storyboard in Resources */,
 				19995AD122991EC300AEB179 /* Assets.xcassets in Resources */,
 				19995ACF22991EC300AEB179 /* Main.storyboard in Resources */,
+				1989692522C3CF6000EC4342 /* yumeto1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1989692622C3CF6000EC4342 /* yumeto1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1989692722C3CF6000EC4342 /* yumeto1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,9 +306,11 @@
 			isa = PBXVariantGroup;
 			children = (
 				19995ACE22991EC300AEB179 /* Base */,
+				19995AF822A9549F00AEB179 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		19995AD222991EC300AEB179 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
